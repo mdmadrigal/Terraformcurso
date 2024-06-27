@@ -10,7 +10,7 @@ resource "aws_subnet" "eks_subnet_public_la" {
     local.tags,
     {
       Name                         = "comunidadedevops-vpc"
-      Name                         = "comunidadedevops-subnet-1a"
+      Name                         = "${var.project_name}-pub-subnet-1a"
       "kubernetes.io / role / elb" = 1
     }
 
@@ -27,7 +27,7 @@ resource "aws_subnet" "eks_subnet_public_lb" {
     local.tags,
     {
       Name                         = "comunidadedevops-vpc"
-      Name                         = "comunidadedevops-subnet-1b"
+      Name                         = "${var.project_name}-pub-subnet-1b"
       "kubernetes.io / role / elb" = 1
 
 
