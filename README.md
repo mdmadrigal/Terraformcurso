@@ -1,9 +1,12 @@
-# Terraformcurso
+AWS Provider
 
-Efetuar a instala��o do terraform de acordo com seu sistema operacional.
+Crei o arquivo provider.tf, onde nele coloquei a versão que meu terraform irá trabalhar, e defini a região onde os recursos serão criados.
 
 
 
-![Capturar](https://github.com/mdmadrigal/Terraformcurso/assets/109667151/c8e88ecd-30fc-4048-925d-9d80b12ca3b1)
+
+
+
+
 
 
