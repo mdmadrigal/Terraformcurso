@@ -7,6 +7,7 @@ Crei o arquivo provider.tf, onde nele coloquei a versão que meu terraform irá 
 
 Criando a VPC
 
+![Capturar](https://github.com/mdmadrigal/Terraformcurso/assets/109667151/3f05d1de-0044-424a-b194-190b578cf0c6)
 
 
 
