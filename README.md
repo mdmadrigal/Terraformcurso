@@ -15,3 +15,5 @@ Criando a VPC
 
 
 
+
+![space](https://github.com/mdmadrigal/Terraformcurso/assets/109667151/16b41330-0f56-4ff4-97a0-49220ab070d6)
