@@ -1,3 +1,5 @@
+##CRIANDO SUBNET PÚBLICA##
+
 resource "aws_subnet" "eks_subnet_public_la" {
   vpc_id                  = aws_vpc.eks_vpc.id
   cidr_block              = cidrsubnet(var.cidr_block, 8, 1)

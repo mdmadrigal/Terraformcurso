@@ -30,3 +30,15 @@ resource "aws_subnet" "eks_subnet_private_lb" {
     }
   )
 }
+
+resource "aws_route_table_association" "eks_rtb_assio_priv_1a" {
+  subnet_id      = aws_subnet.eks_subnet_private_la.id
+  route_table_id = aws_route_table.eks_private_route_table_1a.id
+
+}
+
+resource "aws_route_table_association" "eks_rtb_assio_priv_1b" {
+  subnet_id      = aws_subnet.eks_subnet_private_lb.id
+  route_table_id = aws_route_table.eks_private_route_table_1b.id
+
+}
