@@ -71,5 +71,3 @@ resource "aws_route_table" "eks_private_route_table_1b" {
     }
   )
 }
-
-1
