@@ -9,7 +9,7 @@ resource "aws_subnet" "eks_subnet_public_la" {
 
 
   tags = merge(
-    local.tags,
+    var.tags,
     {
       Name                         = "comunidadedevops-vpc"
       Name                         = "${var.project_name}-pub-subnet-1a"
@@ -26,7 +26,7 @@ resource "aws_subnet" "eks_subnet_public_lb" {
   availability_zone       = "${data.aws_region.current.name}b"
   map_public_ip_on_launch = true
   tags = merge(
-    local.tags,
+    var.tags,
     {
       Name                         = "comunidadedevops-vpc"
       Name                         = "${var.project_name}-pub-subnet-1b"
