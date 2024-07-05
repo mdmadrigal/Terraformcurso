@@ -1,15 +1,12 @@
-AWS Provider
+##Arquitetura do Projeto
 
-Crei o arquivo provider.tf, onde nele coloquei a versão que meu terraform irá trabalhar, e defini a região onde os recursos serão criados.
-
-![provider](https://github.com/mdmadrigal/Terraformcurso/assets/109667151/9a62f480-b964-4a7c-8c09-214ffad4fa77)
-
-
-Criando a VPC
-
-![Capturar](https://github.com/mdmadrigal/Terraformcurso/assets/109667151/3f05d1de-0044-424a-b194-190b578cf0c6)
-
-
-
+- Criação da VPC
+- Criação das Subnets
+- 2 subnets privadas
+- 2 subnets públicas
+- Criação do Internet Gateway
+- Criação do Nat Gateway
+- Criação do Cluster Kubernets apontando para subnet pública rodando o EKS
+Subnet privada rodará work nodes, as EC2
 
 
